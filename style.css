@@ -18,14 +18,15 @@
   padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 20px;
-  color: green;
+  color: #660033;
   display: block;
   border: none;
-  background-color: whitesmoke;
   width:100%;
   text-align: left;
   cursor: pointer;
   outline: none;
+  background-color: #deefe2;
+  /*border: 1px solid green;*/
 }
 
 .dropdown-btn{
@@ -35,7 +36,8 @@
 
 /* On mouse-over */
 .sidenav a:hover, .dropdown-btn:hover {
-  color: #f1f1f1;
+  color: #660033;
+  text-decoration: underline;
   display: block;
 }
 
@@ -71,7 +73,7 @@
 
 
 .main-text{
-    color: rgb(7, 33, 95);
+    color: #660033;
     position: absolute;
     text-align: center;
     top: -10px;
